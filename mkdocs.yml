@@ -1,19 +1,58 @@
-site_name: My Docs
+site_name: GPT Prompts
 nav:
-    - Home: index.md
+    - Good Promt Practices: index.md
+    - Artificial Intelligence:
+        - ChatGPT: ai/chatgpt.md
+        - Midjourney: ai/midjourney.md
     - Programming:
-        - Language Specific:
-          - python: index.md
+        - Languages: 
+            - Go: programming/languages/go.md
+            - Python: programming/languages/python.md
+            - Rust: programming/languages/rust.md
+            - Java: programming/languages/java.md
+            - JavaScript: programming/languages/javascript.md
+            - C++: programming/languages/c++.md
+            - Swift: programming/languages/swift.md
+        - Principles & Concepts: 
+            - SOLID Principles: programming/principles/solid.md
+            - Big O Notation: programming/principles/big-o-notation.md
+            - Design Patterns: programming/principles/design-patterns.md
+            - Data Structures: programming/principles/data-structures.md
+            - Algorithms: programming/principles/algorithms.md
+            - Functional Programming: programming/principles/functional-programming.md
+            - Object-Oriented Programming: programming/principles/object-oriented-programming.md
+    - Technology:
+        - Cybersecurity: technology/cybersecurity.md
+        - AI and Machine Learning: technology/ai-and-machine-learning.md
+        - Data Science: technology/data-science.md
+        - Software Engineering: technology/software-engineering.md
+        - Hardware Engineering: technology/hardware-engineering.md
+        - Telecommunications: technology/telecommunications.md
+        - Web Development: technology/web-development.md
+        - Mobile Development: technology/mobile-development.md
+        - Cloud Computing: technology/cloud-computing.md
+        - Internet of Things: technology/internet-of-things.md
+        - Robotics: technology/robotics.md
+        - Virtual and Augmented Reality: technology/virtual-augmented-reality.md
+    - Jobs: jobs/jobs.md
+    - Software:
+        - Excel: software/excel.md
+        - Word: software/word.md
+        - PowerPoint: software/powerpoint.md
+        - Photoshop: software/photoshop.md
+
+
 
 theme:
   name: material
   palette:
-    primary: black
+    primary: blue grey
   font:
     code: Roboto Mono
 
 plugins:
   - search
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -21,4 +60,16 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
+
+extra:
+  analytics:
+    provider: google
+    property: G-5CZJSJ56L7
+
+extra_css:
+  - stylesheets/extra.css
+
+repo_url: https://github.com/proomter/gptpromts
+edit_uri: ./edit/main/docs
 
