@@ -29,6 +29,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: proomter/gptprompts.github.io
+        token: ${{ secrets.PAT }} 
         path: ./tmp 
 
     - name: Copy site content
