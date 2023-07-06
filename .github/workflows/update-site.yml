@@ -1,0 +1,44 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.11
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Build site
+      run: mkdocs build
+
+    - name: Checkout target repo
+      uses: actions/checkout@v2
+      with:
+        repository: proomter/gptprompts.github.io
+        path: ./tmp 
+
+    - name: Copy site content
+      run: cp -r site/* ./tmp
+
+    - name: Push changes
+      working-directory: ./tmp
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update site content" -a
+        git push
