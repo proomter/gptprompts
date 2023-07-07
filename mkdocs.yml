@@ -1,9 +1,5 @@
 site_name: GPT Prompts
 nav:
-    - Good Promt Practices: index.md
-    - Artificial Intelligence:
-        - ChatGPT: ai/chatgpt.md
-        - Midjourney: ai/midjourney.md
     - Programming:
         - Languages: 
             - Go: programming/languages/go.md
@@ -13,6 +9,11 @@ nav:
             - JavaScript: programming/languages/javascript.md
             - C++: programming/languages/c++.md
             - Swift: programming/languages/swift.md
+        - Frameworks:
+            - Django: programming/frameworks/django.md
+            - React: programming/frameworks/react.md
+            - Angular: programming/frameworks/angular.md
+            - Fastapi: programming/frameworks/fastapi.md
         - Principles & Concepts: 
             - SOLID Principles: programming/principles/solid.md
             - Big O Notation: programming/principles/big-o-notation.md
@@ -21,6 +22,9 @@ nav:
             - Algorithms: programming/principles/algorithms.md
             - Functional Programming: programming/principles/functional-programming.md
             - Object-Oriented Programming: programming/principles/object-oriented-programming.md
+    - Artificial Intelligence:
+        - ChatGPT: ai/chatgpt.md
+        - Midjourney: ai/midjourney.md
     - Technology:
         - Cybersecurity: technology/cybersecurity.md
         - AI and Machine Learning: technology/ai-and-machine-learning.md
@@ -40,6 +44,7 @@ nav:
         - Word: software/word.md
         - PowerPoint: software/powerpoint.md
         - Photoshop: software/photoshop.md
+    - Good Promt Practices: index.md
 
 
 

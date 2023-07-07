@@ -3,3 +3,8 @@
   margin-right: 5rem;
   max-width: 80rem;
 }
+
+
+code {
+  white-space: break-spaces;
+}
