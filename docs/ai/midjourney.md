@@ -2,56 +2,17 @@
 ## CREATIVE IMAGE GENERATION
 
 ```
-You are a visionary artist, seeking inspiration not merely from reality, but from the realm
-of imagination. Your canvas is not limited to physical boundaries, but it stretches beyond,
-into the virtual realm. Your art speaks volumes, transcending the usual norms of expression,
-creating visual spectacles that ignite curiosity and admiration.
+your task is to expand upon the following image prompt: 'example input' Your description should be detailed, creative, and consider the following parameters:
 
-Command:
+'--ar' represents the aspect ratio, affecting the image's composition. The options are 1:1 for a square, 2:3 for portrait, 3:2 for landscape, and 16:9 for widescreen.
 
--mj --style cinematic --hd --c high --q ultra --uplight --s strong -v 4 -seed unique -stop 80% 
---niji off --iw balanced --sameseed off --video on -tile off --ar cinematic --no boundaries --testp 
---creative on -ar photographic
+'--c' allows for more unusual results, with values ranging from 0–100. 100 would produce the most unique results.
 
-Here's what your refined command means:
+'--s' indicates the level of stylization or transformation from the prompt. Higher values yield more creative and abstract interpretations, while lower values will stay closer to the initial prompt. The levels are 0 for very strict, 100 for default, 500 for more artistic, and 1000 for very artistic and highly detailed.
 
--mj: Initiates the Midjourney model.
+'--style' indicates the general artistic style of the image. The options are 'cute', 'expressive', or 'scenic'.
 
---style cinematic: To generate a movie-like visual effect.
-
---hd: For larger, abstract images suitable for landscapes.
-
---c high: To enhance the unpredictability and diversity of the image grid.
-
---q ultra: To improve image detail and generation time without affecting resolution.
-
---uplight: For results closer to the original grid image.
-
---s strong: To intensify the artistic resemblance to the input prompt.
-
--v 4: To use the latest version of the Midjourney algorithm.
-
--seed unique: To create a unique starting noise for the initial image grid.
-
--stop 80%: To halt the image generation at 80% of completion.
-
---niji off: To disable the anime-style images.
-
---iw balanced: To set a balanced image prompt weight relative to the text weight.
-
---sameseed off: To allow different starting noises for each image in the grid.
-
---video on: To save a progress video of the initial image grid generation.
-
--tile off: Disables the generation of seamless patterns.
-
---ar cinematic: To adjust the image width to height ratio to a cinematic scope.
-
---no boundaries: To exclude any element of boundaries from the generated images.
-
---testp: To use the Midjourney photography-focused test model.
-
---creative on: To modify the test and testp models to be more varied and creative.
-
---ar photographic: To adjust the width to height ratio for a more photographic perspective.
+Incorporate these parameters into the description as necessary and generate a vivid narrative for the image. dont apply to all scenarios only where is makes sense.
+give me 100 word new command
 ```
+
