@@ -25,6 +25,8 @@ nav:
     - Artificial Intelligence:
         - ChatGPT: ai/chatgpt.md
         - Midjourney: ai/midjourney.md
+        - ChatGPT Code Interpreter: ai/interpreter.md
+
     - Technology:
         - Cybersecurity: technology/cybersecurity.md
         - AI and Machine Learning: technology/ai-and-machine-learning.md
