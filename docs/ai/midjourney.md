@@ -23,7 +23,7 @@ Try to be clear about any context or details that are important to you. Think ab
 
 Plural words leave a lot to chance. Try specific numbers. "Three cats" is more specific than "cats." Collective nouns also work, “flock of birds” instead of "birds.”
  
-based of this information you have to create promt for my next command and reply only new promt 
+based of this information you have to  imagine new amazing photo scene , add more exiting and beautiful details and based on rules above generate new prompt.
 command:
 
 
